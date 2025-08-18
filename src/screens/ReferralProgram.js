@@ -130,7 +130,7 @@ const ReferralProgram = () => {
     );
   }
 
-  const referralLink = `https://34eb4e8488f9.ngrok-free.app//signup?ref=${referralData.referral_code}`;
+  const referralLink = `https://algonest-sooty.vercel.app/signup?ref=${referralData.referral_code}`;
 
   return (
     <div 
