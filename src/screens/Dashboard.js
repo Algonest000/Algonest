@@ -49,7 +49,7 @@ const Dashboard = () => {
   }, []);
 
   const authToken = localStorage.getItem("authToken");
-  const API_URL = " https://7b62714cd9f9.ngrok-free.app/AlgonestDigitals/dashboard.php";
+  const API_URL = " https://api.algonestdigitals.com/api/dashboard.php";
 
   const handleAuthError = () => {
     localStorage.removeItem("authToken");

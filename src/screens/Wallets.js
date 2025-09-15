@@ -69,7 +69,7 @@ const Wallets = () => {
       try {
         setLoading(true);
         const response = await fetch(
-          " https://7b62714cd9f9.ngrok-free.app/AlgonestDigitals/wallets.php",
+          " https://api.algonestdigitals.com/api/wallets.php",
           {
             method: "GET",
             headers: { Authorization: `Bearer ${jwtToken}` },
@@ -123,7 +123,7 @@ const Wallets = () => {
     try {
       setLoading(true);
       const response = await fetch(
-        " https://7b62714cd9f9.ngrok-free.app/AlgonestDigitals/wallets.php",
+        " https://api.algonestdigitals.com/api/wallets.php",
         {
           method: "POST",
           headers: {

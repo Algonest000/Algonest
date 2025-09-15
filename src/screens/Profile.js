@@ -47,7 +47,7 @@ const Profile = () => {
         }
 
         const response = await axios.get(
-          " https://7b62714cd9f9.ngrok-free.app/AlgonestDigitals/profile.php",
+          " https://api.algonestdigitals.com/api/profile.php",
           {
             headers: {
               "Content-Type": "application/json",

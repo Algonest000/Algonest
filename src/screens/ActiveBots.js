@@ -44,7 +44,7 @@ const ActiveBots = () => {
         }
 
         const response = await axios.get(
-          "https://7b62714cd9f9.ngrok-free.app/AlgonestDigitals/active_bots.php",
+          "https://api.algonestdigitals.com/api/active_bots.php",
           {
             headers: {
               "Content-Type": "application/json",

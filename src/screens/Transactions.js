@@ -79,7 +79,7 @@ const statusColors = {
         const token = localStorage.getItem("authToken");
         if (!token) throw new Error("User not authenticated.");
 
-        const response = await fetch(" https://7b62714cd9f9.ngrok-free.app/AlgonestDigitals/transactions.php", {
+        const response = await fetch(" https://api.algonestdigitals.com/api/transactions.php", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

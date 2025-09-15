@@ -77,7 +77,7 @@ const LoginScreen = () => {
     setLoading(true);
     try {
       const response = await axios.post(
-        " https://7b62714cd9f9.ngrok-free.app/AlgonestDigitals/user_auth.php",
+        " https://api.algonestdigitals.com/api/user_auth.php",
         {
           email: formData.email,
           password: formData.password,

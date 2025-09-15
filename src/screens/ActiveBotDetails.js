@@ -53,7 +53,7 @@ const ActiveBotDetails = () => {
         }
 
         const response = await axios.get(
-          `https://7b62714cd9f9.ngrok-free.app/AlgonestDigitals/active_bot_details.php?id=${id}`,
+          `https://api.algonestdigitals.com/api/active_bot_details.php?id=${id}`,
           {
             headers: {
               "Content-Type": "application/json",

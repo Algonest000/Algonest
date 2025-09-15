@@ -70,7 +70,7 @@ const LearnMore = () => {
         }
 
         const response = await axios.get(
-          `https://7b62714cd9f9.ngrok-free.app/AlgonestDigitals/bot_details.php?id=${id}`,
+          `https://api.algonestdigitals.com/api/bot_details.php?id=${id}`,
           {
             headers: {
               "Content-Type": "application/json",
@@ -110,7 +110,7 @@ const LearnMore = () => {
       }
 
       const response = await axios.post(
-        "https://7b62714cd9f9.ngrok-free.app/AlgonestDigitals/purchase_bot.php",
+        "https://api.algonestdigitals.com/api/purchase_bot.php",
         { bot_id: id },
         {
           headers: {

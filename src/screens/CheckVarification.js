@@ -9,7 +9,7 @@ const VerifyEmail = () => {
 
 //   useEffect(() => {
 //     // Simulate API call to check verification status
-//     fetch(" https://7b62714cd9f9.ngrok-free.app/AlgonestDigitals/check_verification.php")
+//     fetch(" http://localhost/AlgonestDigitals/check_verification.php")
 //       .then((response) => response.json())
 //       .then((data) => {
 //         if (data.verified) {
@@ -28,7 +28,7 @@ const VerifyEmail = () => {
     setError("");
     try {
       const response = await fetch(
-        " https://7b62714cd9f9.ngrok-free.app/AlgonestDigitals/resend_verification.php",
+        " https://api.algonestdigitals.com/api/resend_verification.php",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

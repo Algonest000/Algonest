@@ -51,7 +51,7 @@ const ForgotPassword = () => {
     setError("");
     
     try {
-      const response = await fetch("https://7b62714cd9f9.ngrok-free.app/AlgonestDigitals/generate_reset_key.php", {
+      const response = await fetch("https://api.algonestdigitals.com/api/generate_reset_key.php", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

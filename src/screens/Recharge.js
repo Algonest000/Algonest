@@ -51,7 +51,7 @@ const CombinedRecharge = () => {
   const fetchWalletDetails = async () => {
     try {
       const response = await fetch(
-        "https://7b62714cd9f9.ngrok-free.app/AlgonestDigitals/wallets.php",
+        "https://api.algonestdigitals.com/api/wallets.php",
         {
           method: "GET",
           headers: {
@@ -128,7 +128,7 @@ const CombinedRecharge = () => {
     formData.append("proof", proof);
   
     try {
-      const response = await fetch("https://7b62714cd9f9.ngrok-free.app/AlgonestDigitals/invest.php", {
+      const response = await fetch("https://api.algonestdigitals.com/api/invest.php", {
         method: "POST",
         headers: {
           Authorization: `Bearer ${jwtToken}`,

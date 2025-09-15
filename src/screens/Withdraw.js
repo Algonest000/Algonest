@@ -27,7 +27,7 @@ const Withdraw = () => {
     const fetchAccountBalance = async () => {
       try {
         const token = localStorage.getItem("authToken");
-        const response = await fetch(" https://7b62714cd9f9.ngrok-free.app/AlgonestDigitals/withdrawal.php", {
+        const response = await fetch(" https://api.algonestdigitals.com/api/withdrawal.php", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
@@ -92,7 +92,7 @@ const Withdraw = () => {
 
     try {
       const token = localStorage.getItem("authToken");
-      const response = await fetch(" https://7b62714cd9f9.ngrok-free.app/AlgonestDigitals/withdrawal.php", {
+      const response = await fetch(" https://api.algonestdigitals.com/api/withdrawal.php", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

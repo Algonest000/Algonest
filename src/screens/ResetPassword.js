@@ -84,7 +84,7 @@ const ResetPassword = () => {
     setIsLoading(true);
     
     try {
-      const response = await fetch(" https://7b62714cd9f9.ngrok-free.app/AlgonestDigitals/reset_password.php", {
+      const response = await fetch(" https://api.algonestdigitals.com/api/reset_password.php", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
