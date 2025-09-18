@@ -77,7 +77,7 @@ const LoginScreen = () => {
     setLoading(true);
     try {
       const response = await axios.post(
-        " https://api.algonestdigitals.com/api/user_auth.php",
+        "https://api.algonestdigitals.com/AlgonestDigitals/public/user_auth",
         {
           email: formData.email,
           password: formData.password,

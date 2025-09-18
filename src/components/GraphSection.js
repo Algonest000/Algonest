@@ -28,7 +28,7 @@ const GraphSection = () => {
         }
 
         // Fetch the chart data from the backend
-        const response = await axios.get(" https://7b62714cd9f9.ngrok-free.app/AlgonestDigitals/dashboard.php", {
+        const response = await axios.get("https://api.algonestdigitals.com/AlgonestDigitals/public/dashboard", {
           headers: {
             "Content-Type": "application/json",
             Authorization: `Bearer ${token}`,

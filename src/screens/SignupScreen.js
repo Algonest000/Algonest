@@ -154,7 +154,7 @@ const SignupScreen = () => {
       const phoneNumber = `${country.dialCode}${formData.phone.replace(/\D/g, '')}`;
 
       const response = await axios.post(
-        " https://api.algonestdigitals.com/api/register.php",
+        "https://api.algonestdigitals.com/AlgonestDigitals/public/register",
         {
           name: formData.fullName.trim(),
           phone_number: phoneNumber,
