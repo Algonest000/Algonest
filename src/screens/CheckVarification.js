@@ -28,7 +28,7 @@ const VerifyEmail = () => {
     setError("");
     try {
       const response = await fetch(
-        " https://api.algonestdigitals.com/api/resend_verification.php",
+       "https://api.algonestdigitals.com/AlgonestDigitals/public/resend_verification",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

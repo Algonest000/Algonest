@@ -60,7 +60,7 @@ const BotsPage = () => {
         }
 
         const response = await axios.get(
-          "https://api.algonestdigitals.com/api/bots.php",
+          "https://api.algonestdigitals.com/AlgonestDigitals/public/bots",
           {
             headers: {
               "Content-Type": "application/json",

@@ -51,7 +51,7 @@ const ForgotPassword = () => {
     setError("");
     
     try {
-      const response = await fetch("https://api.algonestdigitals.com/api/generate_reset_key.php", {
+      const response = await fetch("https://api.algonestdigitals.com/AlgonestDigitals/public/generate_reset_key", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

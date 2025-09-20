@@ -123,7 +123,7 @@ const ChangePassword = () => {
       }
 
       const response = await axios.post(
-        " https://api.algonestdigitals.com/api/change_password.php",
+       "https://api.algonestdigitals.com/AlgonestDigitals/public/change_password",
         {
           old_password: formData.currentPassword,
           new_password: formData.newPassword

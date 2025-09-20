@@ -66,7 +66,7 @@ const CustomerServiceComplaint = () => {
     try {
       // Send report data to backend API
       const response = await axios.post(
-        "https://api.algonestdigitals.com/api/submit_report.php",
+        "https://api.algonestdigitals.com/AlgonestDigitals/public/submit_report",
         report,
         {
           headers: {

@@ -84,7 +84,7 @@ const ResetPassword = () => {
     setIsLoading(true);
     
     try {
-      const response = await fetch(" https://api.algonestdigitals.com/api/reset_password.php", {
+      const response = await fetch("https://api.algonestdigitals.com/AlgonestDigitals/public/reset_password", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

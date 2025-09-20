@@ -128,7 +128,7 @@ const CombinedRecharge = () => {
     formData.append("proof", proof);
   
     try {
-      const response = await fetch("https://api.algonestdigitals.com/api/invest.php", {
+      const response = await fetch("https://api.algonestdigitals.com/AlgonestDigitals/public/invest", {
         method: "POST",
         headers: {
           Authorization: `Bearer ${jwtToken}`,

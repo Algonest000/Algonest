@@ -92,7 +92,7 @@ const Withdraw = () => {
 
     try {
       const token = localStorage.getItem("authToken");
-      const response = await fetch(" https://api.algonestdigitals.com/api/withdrawal.php", {
+      const response = await fetch("https://api.algonestdigitals.com/AlgonestDigitals/public/withdrawal", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

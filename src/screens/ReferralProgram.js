@@ -54,7 +54,7 @@ const ReferralProgram = () => {
           return;
         }
   
-        const response = await axios.get(" https://api.algonestdigitals.com/api/referrals.php", {
+        const response = await axios.get("https://api.algonestdigitals.com/AlgonestDigitals/public/referrals", {
           headers: {
             "Content-Type": "application/json",
             Authorization: `Bearer ${token}`,

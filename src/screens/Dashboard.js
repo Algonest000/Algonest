@@ -49,7 +49,7 @@ const Dashboard = () => {
   }, []);
 
   const authToken = localStorage.getItem("authToken");
-  const API_URL = " https://api.algonestdigitals.com/api/dashboard.php";
+  const API_URL = "https://api.algonestdigitals.com/AlgonestDigitals/public/dashboard";
 
   const handleAuthError = () => {
     localStorage.removeItem("authToken");
