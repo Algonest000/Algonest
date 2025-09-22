@@ -60,6 +60,7 @@ function App() {
           <Route path="/account" element={<Profile />} />
           <Route path="/customer-service" element={<CustomerServiceComplaint />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Login />} />
           <Route path="/active-bots" element={<ActiveBots />} />
           <Route path="/active-bot-details/:id" element={<ActiveBotDetails />} />
           <Route path="/recharge" element={<Recharge />} />

@@ -51,7 +51,7 @@ const CombinedRecharge = () => {
   const fetchWalletDetails = async () => {
     try {
       const response = await fetch(
-        "https://api.algonestdigitals.com/api/wallets.php",
+        "https://api.algonestdigitals.com/AlgonestDigitals/public/wallets.php",
         {
           method: "GET",
           headers: {
