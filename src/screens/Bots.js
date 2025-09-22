@@ -98,7 +98,7 @@ const BotsPage = () => {
       }
 
       const response = await axios.post(
-        "https://api.algonestdigitals.com/api/purchase_bot.php",
+        "https://api.algonestdigitals.com/AlgonestDigitals/public/purchase_bot.php",
         { bot_id: botId },
         {
           headers: {

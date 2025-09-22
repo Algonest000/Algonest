@@ -130,7 +130,7 @@ const ReferralProgram = () => {
     );
   }
 
-  const referralLink = `https://algonest-sooty.vercel.app/signup?ref=${referralData.referral_code}`;
+  const referralLink = `https://algonestdigitals.com/signup?ref=${referralData.referral_code}`;
 
   return (
     <div 
@@ -279,7 +279,7 @@ const ReferralProgram = () => {
             Salary Bonus Program
           </h3>
           <p className="text-sm text-gray-300 mb-4">
-            Get $12 monthly salary when you refer 2+ active users who make deposits.
+            Get $12 monthly salary when you refer 10+ active users who make deposits.
           </p>
           <div className="flex items-center">
             <span className={`px-3 py-1 rounded-full text-sm font-medium ${

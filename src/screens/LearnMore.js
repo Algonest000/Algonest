@@ -70,7 +70,7 @@ const LearnMore = () => {
         }
 
         const response = await axios.get(
-          `https://api.algonestdigitals.com/api/bot_details.php?id=${id}`,
+          `https://api.algonestdigitals.com/AlgonestDigitals/public/bot_details.php?id=${id}`,
           {
             headers: {
               "Content-Type": "application/json",
